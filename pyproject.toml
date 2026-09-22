@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "are-lang"
+version = "1.0.0"
+authors = [
+  { name="Rushabh Sheth V." }
+]
+description = "The ARE 3-in-1 Programming Language based on Universal Zero logic."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+are = "are.compiler:main"
