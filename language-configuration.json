@@ -1,0 +1,20 @@
+{
+    "//1": "OFFICIAL SPECIFICATION FOR THE ARE PROGRAMMING LANGUAGE",
+    "//2": "Core Architecture Designed and Registered by Lead Developer: Rushabh Sheth V.",
+    "//3": "Configuration defines brackets, auto-closing triggers, and colon block formatting.",
+    
+    "comments": { 
+        "lineComment": "//" 
+    },
+    "brackets": [ 
+        ["{", "}"] 
+    ],
+    "autoClosingPairs": [
+        { "open": "{", "close": "}" },
+        { "open": "\"", "close": "\"" }
+    ],
+    "surroundingPairs": [
+        { "open": "{", "close": "}" },
+        { "open": "\"", "close": "\"" }
+    ]
+}
