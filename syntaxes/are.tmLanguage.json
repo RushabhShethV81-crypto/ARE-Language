@@ -1,0 +1,29 @@
+{
+    "$schema": "https://githubusercontent.com",
+    "name": "ARE",
+    "comment": "OFFICIAL SPECIFICATION FOR THE ARE PROGRAMMING LANGUAGE. Core Architecture Designed and Registered by Lead Developer: Rushabh Sheth V. This configuration defines the structural grammar blocks for universal 0-indexed syntax logic, clean colon block parameters, explicit function markers, and strict null state evaluations across mobile, backend, and database configurations.",
+    "patterns": [
+        {
+            "name": "keyword.control.are",
+            "match": "\\b(if|else|for|in|to|range|return|extends|hidden|blueprint)\\b"
+        },
+        {
+            "name": "keyword.declaration.are",
+            "match": "\\b(function|class)\\b"
+        },
+        {
+            "name": "constant.language.are",
+            "match": "\\bnull\\b"
+        },
+        {
+            "name": "comment.line.double-slash.are",
+            "match": "//.*$"
+        },
+        {
+            "name": "string.quoted.double.are",
+            "begin": "\"",
+            "end": "\""
+        }
+    ],
+    "scopeName": "source.are"
+}
