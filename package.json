@@ -1,0 +1,21 @@
+{
+    "name": "are-language-highlight",
+    "displayName": "ARE Language Support",
+    "description": "Official syntax highlighting for the ARE language developed by Rushabh Sheth V.",
+    "version": "1.0.0",
+    "engines": { "vscode": "^1.60.0" },
+    "categories": [ "Programming Languages" ],
+    "contributes": {
+        "languages": [{
+            "id": "are",
+            "aliases": ["ARE", "are"],
+            "extensions": [".are"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "are",
+            "scopeName": "source.are",
+            "path": "./syntaxes/are.tmLanguage.json"
+        }]
+    }
+}
