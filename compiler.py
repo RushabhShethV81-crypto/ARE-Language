@@ -1,7 +1,7 @@
 import sys
 
 def main():
-    print("[ARE Engine] Created by Rushabh Sheth V.")
+    print("[ARE Engine]")
     print("------------------------------------------------------------")
     
     # Simple check to see if a code file was passed
